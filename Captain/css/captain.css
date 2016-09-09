@@ -1,0 +1,271 @@
+*
+{
+	transition:all .5s;
+
+}
+body,
+blockquote,
+html,
+form,
+ul,
+a,
+p,
+h2,
+h3,
+h4,
+h5,
+img,
+figure
+
+{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+border: 0;
+list-style-type:none;
+text-decoration:none;
+
+}
+body
+{
+	font: 16px 'PT Sans',Arial;
+	background: url(../img/paper.png);
+	color: #333;
+}
+/* CSS Grid */
+.container
+{
+	width: 940px;
+	margin: 0 auto;
+	
+}
+.row
+{
+	margin-bottom: 5px;
+}
+.row:after
+{
+	display: block;
+	content:'.';
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+[class*="span"]
+{
+	float: left;
+	display: inline;
+	margin-right: 20px;
+	height: 100px;
+
+}
+[class*="span"]:last-child
+{
+	margin-right: 0;
+	float: right;
+	
+}
+.span1{width:60px;}
+.span2{width:140px;}
+.span3{width:220px;}
+.span4{width:300px;}
+.span5{width:380px;}
+.span6{width:460px;}
+.span7{width:540px;}
+.span8{width:620px;}
+.span9{width:700px;}
+.span10{width:780px;}
+.span11{width:860px;}
+.span12{width:940px;}
+
+
+.offset1{margin-left:60px;}
+.offset2{margin-left:140px;}
+.offset3{margin-left:220px;}
+.offset4{margin-left:300px;}
+.offset5{margin-left:380px;}
+.offset6{margin-left:460px;}
+.offset7{margin-left:540px;}
+.offset8{margin-left:620px;}
+.offset9{margin-left:700px;}
+.offset10{margin-left:780px;}
+.offset11{margin-left:860px;}
+.offset12{margin-left:940px;}
+
+/* Main */
+.header
+{
+	margin-top: 20px;
+}
+.header h1
+{
+	width:940px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rbda(255,255,255.8);
+}
+.search
+{
+	margin-top: 40px;
+}
+.search input
+{
+	width: 100%;
+	height: 30%;
+}
+.slider
+{
+	height: 270px;
+	background: url(../img/slider.jpg);
+	box-shadow: 0 5px 5px rgba(0,0,0.2);
+}
+.slider-hulk
+{
+	height: 270px;
+	background: url(../img/Hulk.jpg);
+	box-shadow: 0 5px 5px rgba(0,0,0.2);
+}
+.thumb img
+{
+		box-shadow: 0 5px 5px rgba(0,0,0.2);
+}
+.sidebar
+{
+	padding-top: 30px;
+}
+.sidebar nav ul
+{
+	padding: 0;
+	margin: 0;
+	box-shadow: 0 5px 5px rgba(0,0,0.2);
+	list-style: none;
+}
+.sidebar nav ul li a
+{
+text-decoration: none;
+color: #eee;
+background: #bbb;
+display: block;
+width: 140px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+margin-bottom: 1px;	
+}
+.sidebar nav ul li a:hover
+{
+	background: #aaa;
+	
+}
+.content
+{
+padding-top:25px;
+
+}
+/*==================FOOTER=================*/
+footer
+{  
+	/*width: 100%;*/
+	height: 150px;
+	padding: 10px 0;
+	/*margin-left:145px;
+	margin-top:1010px;*/
+	
+    
+}
+.clearfix::affter
+{
+content:'';
+display:table;
+clear:both;	
+}
+.button
+{
+	display:inline-block;
+	margin:20px 28.4px;
+	width:70px;
+	height:70px;
+	background:url(../img/paper.png);
+	cursor:pointer;
+	border-radius:50%;
+	box-shadow:0 3px 20px rgba(0,0,0,.25),
+	inset 0 2px 0 rgba(255,255,255,.6),
+	0 2px 0 rgba(0,0,0,.1),
+	inset 0 0 20px rgba(0,0,0,.1);
+}
+.button:hover
+{
+	box-shadow:inset 0 0 20px rgba(0,0,0,.2),
+	 0 2px 0 rgba(255,255,255,.4),inset
+	 0 2px 0 rgba(0,0,0,.1);
+}
+.button::after
+{
+	content:'';
+	width:70px;
+	height:70px;
+	display:block;
+	opacity:.5;
+}
+.camera::after
+{
+	background:url(../img/camera.png) center no-repeat;
+}
+.chat::after
+{
+	background:url(../img/chat.png) center no-repeat;
+}
+.mail::after
+{
+	background:url(../img/mail.png) center no-repeat;
+}
+.controls::after
+{
+	background:url(../img/controls.png) center no-repeat;
+}
+.cinema::after
+{
+	background:url(../img/cinema.png) center no-repeat;
+}
+.button:hover::after
+{
+	background-position: center 55%;
+}
+/*=====================================================*/
+
+.span10{width:760px;}
+#captan1
+{background: url(../img/capitan1.jpg);}
+#captan2
+{background-image: url(../img/capitan2.jpg);}
+#captan3
+{background-image: url(../img/capitan3.jpg);}
+#captan4
+{background-image: url(../img/capitan4.jpg);}
+#captan5
+{background-image: url(../img/capitan5.jpg);}
+#captan6
+{background-image: url(../img/capitan6.jpg);}
+
+.span10{width:760px;}
+#hulk1
+{background: url(../img/hulk1.jpg);}
+#hulk2
+{background-image: url(../img/hulk2.jpg);}
+#hulk3
+{background-image: url(../img/hulk3.jpg);}
+#hulk4
+{background-image: url(../img/hulk4.jpg);}
+#hulk5
+{background-image: url(../img/hulk5.jpg);}
+#hulk6
+{background-image: url(../img/hulk6.jpg);}
+#jump
+	{
+	
+	height:100px;
+	left:50px;
+	position:absolute;
+	top:50px;
+	width:100px;
+
+	}
